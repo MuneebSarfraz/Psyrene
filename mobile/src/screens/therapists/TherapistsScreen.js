@@ -74,7 +74,7 @@ export default function TherapistsScreen({ navigation }) {
       </View>
 
       <ScrollView showsVerticalScrollIndicator={false} keyboardShouldPersistTaps="handled">
-        <View style={{ paddingHorizontal: 20, gap: 10, paddingBottom: 18 }}>
+        <View style={{ paddingHorizontal: 20, gap: 10, paddingBottom: 19 }}>
           {filtered.map((t) => (
             <TouchableOpacity key={t.id} activeOpacity={0.85} onPress={() => navigation.navigate('TherapistDetail', { therapist: t })}>
               <View style={styles.tc}>

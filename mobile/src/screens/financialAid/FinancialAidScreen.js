@@ -36,7 +36,7 @@ export default function FinancialAidScreen({ navigation }) {
         </View>
 
         <SectionHeader title="How it works" />
-        <View style={{ paddingHorizontal: 20, gap: 8, paddingBottom: 12 }}>
+        <View style={{ paddingHorizontal: 20, gap: 8, paddingBottom: 13 }}>
           {STEPS.map((s) => (
             <View key={s.n} style={styles.step}>
               <View style={styles.stepDot}><Text style={styles.stepNum}>{s.n}</Text></View>

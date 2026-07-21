@@ -160,7 +160,7 @@ export default function BookSessionScreen({ navigation, route }) {
 
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: colors.cream },
-  pad: { paddingHorizontal: 20, paddingBottom: 12 },
+  pad: { paddingHorizontal: 20, paddingBottom: 13 },
   tIcon: { width: 44, height: 44, borderRadius: 12, alignItems: 'center', justifyContent: 'center' },
   change: { fontFamily: fonts.sansMedium, fontSize: 11, color: colors.sage },
   typeCard: {
