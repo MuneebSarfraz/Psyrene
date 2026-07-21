@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Psyrene",
+    "slug": "psyrene",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "psyrene",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#F4EFE8"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.psyrene.app"
+    },
+    "android": {
+      "package": "com.psyrene.app",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fcde9594-fc1e-4e9a-b38f-b16295961e1d"
+      }
+    }
+  }
+}
