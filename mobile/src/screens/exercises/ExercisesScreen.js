@@ -73,7 +73,7 @@ export default function ExercisesScreen({ navigation }) {
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.pad}>
           <LinearGradient colors={gradients.light} style={styles.featured}>
-            <Label style={{ color: colors.sage, marginBottom: 6 }}>✨ Recommended for you</Label>
+            <Label style={{ color: colors.sage, marginBottom: 6.5 }}>✨ Recommended for you</Label>
             <Text style={styles.featTitle}>4-7-8 Breathing</Text>
             <Body style={{ marginBottom: 14 }}>A calming technique to reduce anxiety in minutes.</Body>
             <View style={{ alignItems: 'center', marginBottom: 14 }}>

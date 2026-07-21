@@ -102,7 +102,7 @@ export default function AnalyticsScreen({ navigation }) {
 
         <View style={styles.pad}>
           <Card>
-            <T weight="600" style={{ marginBottom: 12 }}>Emotions this {period.toLowerCase()}</T>
+            <T weight="600" style={{ marginBottom: 12.5 }}>Emotions this {period.toLowerCase()}</T>
             <View style={{ gap: 8 }}>
               {data.emotions.map((e) => (
                 <Row key={e.l} style={{ gap: 8 }}>

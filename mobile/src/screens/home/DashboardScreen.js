@@ -50,7 +50,7 @@ export default function DashboardScreen({ navigation }) {
               <T weight="600" size={14}>Daily Check-in</T>
               <Pill tone="sage">Pending</Pill>
             </RowSB>
-            <Body style={{ marginBottom: 12 }}>
+            <Body style={{ marginBottom: 12.5 }}>
               A few moments of reflection can make a real difference today.
             </Body>
             <Row style={{ gap: 10 }}>
