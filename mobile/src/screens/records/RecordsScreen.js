@@ -60,7 +60,7 @@ export default function RecordsScreen({ navigation }) {
               <Text style={{ fontSize: 26 }}>📄</Text>
               <View style={{ flex: 1 }}>
                 <T weight="600" size={11}>Monthly Progress Report</T>
-                <Tiny style={{ marginTop: 4 }}>May 2026 · AI Generated</Tiny>
+                <Tiny style={{ marginTop: 4.5 }}>May 2026 · AI Generated</Tiny>
               </View>
               <Text style={{ color: colors.t2, fontSize: 15 }}>↓</Text>
             </Row>

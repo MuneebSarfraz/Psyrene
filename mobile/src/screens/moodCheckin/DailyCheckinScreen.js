@@ -107,7 +107,7 @@ export default function DailyCheckinScreen({ navigation }) {
         </View>
 
         {/* Energy */}
-        <View style={{ paddingHorizontal: 20, paddingBottom: 12 }}>
+        <View style={{ paddingHorizontal: 20, paddingBottom: 11 }}>
           <Card>
             <T weight="600" style={{ marginBottom: 10 }}>How's your energy?</T>
             <View style={styles.tagWrap}>
