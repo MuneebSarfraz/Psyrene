@@ -55,7 +55,7 @@ export default function RewardsScreen({ navigation }) {
         </View>
 
         <SectionHeader title="Earn more points" />
-        <View style={{ paddingHorizontal: 20, gap: 8, paddingBottom: 20 }}>
+        <View style={{ paddingHorizontal: 20, gap: 8, paddingBottom: 21 }}>
           {EARN.map((e) => (
             <CardSm key={e.title}>
               <Row style={{ gap: 12 }}>

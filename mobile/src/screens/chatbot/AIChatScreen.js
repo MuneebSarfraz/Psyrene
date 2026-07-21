@@ -85,7 +85,7 @@ export default function AIChatScreen({ navigation }) {
           keyboardDismissMode="on-drag"
           onContentSizeChange={() => scrollRef.current?.scrollToEnd({ animated: false })}
         >
-          <Tiny style={{ textAlign: 'center', marginBottom: 4 }}>Today · 09:41 AM</Tiny>
+          <Tiny style={{ textAlign: 'center', marginBottom: 4.5 }}>Today · 09:41 AM</Tiny>
           {messages.map((m, i) =>
             m.from === 'bot' ? (
               <View key={i} style={[styles.bubble, styles.bBot]}>

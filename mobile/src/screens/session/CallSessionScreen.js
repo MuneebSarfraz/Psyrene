@@ -47,7 +47,7 @@ export default function CallSessionScreen({ navigation }) {
       {/* Session stage */}
       <LinearGradient colors={gradients.session} style={styles.stage}>
         <View style={{ alignItems: 'center' }}>
-          <Label style={{ color: 'rgba(255,255,255,0.35)', marginBottom: 14 }}>DR. SARAH AHMED</Label>
+          <Label style={{ color: 'rgba(255,255,255,0.35)', marginBottom: 14.5 }}>DR. SARAH AHMED</Label>
           <LinearGradient colors={gradients.brand} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.avatar}>
             <Text style={{ fontSize: 40 }}>👩‍⚕️</Text>
           </LinearGradient>
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
   more: { fontSize: 17, color: 'rgba(255,255,255,0.3)' },
   stage: {
     flex: 1, alignItems: 'center', justifyContent: 'space-between',
-    paddingHorizontal: 20, paddingTop: 30, paddingBottom: 26,
+    paddingHorizontal: 20, paddingTop: 30.5, paddingBottom: 26,
   },
   avatar: {
     width: 96, height: 96, borderRadius: 48, alignItems: 'center', justifyContent: 'center',

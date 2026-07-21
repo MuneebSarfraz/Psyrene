@@ -94,7 +94,7 @@ export default function TherapistDetailScreen({ navigation, route }) {
           </Card>
         </View>
 
-        <View style={[styles.pad, { paddingBottom: 24 }]}>
+        <View style={[styles.pad, { paddingBottom: 25 }]}>
           <Button title="Book a session →" onPress={() => navigation.navigate('BookSession', { therapist: t })} />
         </View>
       </ScrollView>
